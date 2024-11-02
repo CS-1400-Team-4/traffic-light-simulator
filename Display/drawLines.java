@@ -189,7 +189,9 @@ public class drawLines extends JPanel
     		{
     			g2d.setColor(Color.green);
     			g2d.drawPolygon(x,y,3);
-    			
+    	    	g2d.drawLine(725, 168, w, 168);
+    	    	g2d.drawLine(w, 168, w2, h2);
+    	    	g2d.drawLine(x3, y3, w3, h3);
     		}
         }
         else if(str == "inverter")
